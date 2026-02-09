@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "rm -rf assets && rm -f vite.svg",
     "build": "vite build",
+    "postbuild": "cp docs/index.html index.html && cp -r docs/assets assets && cp docs/vite.svg vite.svg",
     "preview": "vite preview"
   },
   "dependencies": {
