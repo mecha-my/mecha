@@ -229,14 +229,31 @@ const openEmail = () => {
     <!-- Footer -->
     <footer class="border-t border-stone-200 bg-stone-50">
       <div class="container mx-auto px-4 py-10">
-        <div class="text-center space-y-2">
-          <h4 class="text-xs font-semibold tracking-widest text-stone-900">MECHACRAFT SDN. BHD.</h4>
-          <p class="text-xs text-stone-500">(Company No. 202501021879 (1623292-T))</p>
-          <p class="text-xs text-stone-500 leading-relaxed">
-            1-19-03, Menara Bangkok Bank, Laman Sentral Berjaya,<br>
-            No. 105, Jalan Ampang, 50450 Kuala Lumpur, W.P. Kuala Lumpur.
-          </p>
-          <p class="text-xs text-stone-500">TIN: C60102050020</p>
+        <div class="space-y-4 max-w-4xl mx-auto">
+          <div class="text-center md:text-left">
+            <h4 class="text-xs font-semibold tracking-widest text-stone-900">MECHACRAFT SDN. BHD.</h4>
+            <p class="text-xs text-stone-500">(Company No. 202501021879 (1623292-T))</p>
+            <p class="text-xs text-stone-500">TIN: C60102050020</p>
+          </div>
+          
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="text-center md:text-left">
+              <p class="text-xs font-medium text-stone-700 mb-1">Main Office (Registered)</p>
+              <p class="text-xs text-stone-500 leading-relaxed">
+                1-19-03, Menara Bangkok Bank, Laman Sentral Berjaya,<br>
+                No. 105, Jalan Ampang, 50450 Kuala Lumpur, W.P. Kuala Lumpur.
+              </p>
+            </div>
+            
+            <div class="text-center md:text-left">
+              <p class="text-xs font-medium text-stone-700 mb-1">New Office</p>
+              <p class="text-xs text-stone-500 leading-relaxed">
+                Unit No. 20-01, Level 20, Menara Centara,<br>
+                No. 360 Jalan Tuanku Abdul Rahman,<br>
+                50100 Kuala Lumpur, W.P. Kuala Lumpur, Malaysia
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
